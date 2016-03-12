@@ -12,7 +12,6 @@ class SignupViewController: UIViewController {
 
     @IBOutlet var username: UITextField!
     @IBOutlet var password: UITextField!
-    @IBOutlet var confirmPassword: UITextField!
     @IBOutlet var email: UITextField!
     
     override func viewDidLoad() {
@@ -27,6 +26,12 @@ class SignupViewController: UIViewController {
     }
     
     @IBAction func continueSignup(sender: AnyObject) {
+            let user = PFUser()
+            user.username = username.text
+            user.password = password.text
+            user.email = email.text
+        
+            user.signUpInBackground()
     }
 
     /*

@@ -26,10 +26,13 @@ class LoginViewController: UIViewController {
     
     @IBAction func submitLogin(sender: AnyObject) {
         
-//        let user = PFUser()
-//        user.username = username.text
-//        user.password = password.text
-        PFUser.logInWithUsernameInBackground(username.text!, password: password.text!)
+        PFUser.logInWithUsernameInBackground(username.text!, password: password.text!) {
+            (success, loginError) in
+            if loginError == nil {
+                self.performSegueWithIdentifier("toFeed", sender: self)
+            }
+        }
+    
     
     }
 

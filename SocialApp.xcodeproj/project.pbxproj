@@ -7,9 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C01EC2D1C94C52400CD7172 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C01EC2C1C94C52400CD7172 /* Main.storyboard */; };
+		0C29E4221C90FB37006728EA /* NewSocialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C29E4211C90FB37006728EA /* NewSocialViewController.swift */; };
+		0C29E4261C91001F006728EA /* SocialsFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C29E4251C91001F006728EA /* SocialsFeedViewController.swift */; };
+		0C29E4281C910344006728EA /* SocialCellCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C29E4271C910344006728EA /* SocialCellCollectionViewCell.swift */; };
+		0C29E42A1C9106CA006728EA /* SocialDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C29E4291C9106CA006728EA /* SocialDetailsViewController.swift */; };
+		0C9076E81C93BEFC002A532B /* GoingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9076E71C93BEFC002A532B /* GoingTableViewCell.swift */; };
 		0C9202FA1C8FE8570074CC90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9202F91C8FE8570074CC90 /* AppDelegate.swift */; };
 		0C9202FC1C8FE8570074CC90 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9202FB1C8FE8570074CC90 /* ViewController.swift */; };
-		0C9202FF1C8FE8570074CC90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C9202FD1C8FE8570074CC90 /* Main.storyboard */; };
 		0C9203021C8FE8570074CC90 /* SocialApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0C9203001C8FE8570074CC90 /* SocialApp.xcdatamodeld */; };
 		0C9203041C8FE8570074CC90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C9203031C8FE8570074CC90 /* Assets.xcassets */; };
 		0C9203071C8FE8570074CC90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C9203051C8FE8570074CC90 /* LaunchScreen.storyboard */; };
@@ -53,10 +58,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C01EC2C1C94C52400CD7172 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../../../../.Trash/Main.storyboard; sourceTree = "<group>"; };
+		0C29E4211C90FB37006728EA /* NewSocialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewSocialViewController.swift; sourceTree = "<group>"; };
+		0C29E4251C91001F006728EA /* SocialsFeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocialsFeedViewController.swift; path = ../SocialsFeedViewController.swift; sourceTree = "<group>"; };
+		0C29E4271C910344006728EA /* SocialCellCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialCellCollectionViewCell.swift; sourceTree = "<group>"; };
+		0C29E4291C9106CA006728EA /* SocialDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialDetailsViewController.swift; sourceTree = "<group>"; };
+		0C9076E71C93BEFC002A532B /* GoingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoingTableViewCell.swift; sourceTree = "<group>"; };
 		0C9202F61C8FE8570074CC90 /* SocialApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C9202F91C8FE8570074CC90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0C9202FB1C8FE8570074CC90 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0C9202FE1C8FE8570074CC90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0C9203011C8FE8570074CC90 /* SocialApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SocialApp.xcdatamodel; sourceTree = "<group>"; };
 		0C9203031C8FE8570074CC90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C9203061C8FE8570074CC90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -165,7 +175,12 @@
 				0C9202F91C8FE8570074CC90 /* AppDelegate.swift */,
 				0C92033E1C8FEAD80074CC90 /* Frameworks */,
 				0C9202FB1C8FE8570074CC90 /* ViewController.swift */,
-				0C9202FD1C8FE8570074CC90 /* Main.storyboard */,
+				0C29E4291C9106CA006728EA /* SocialDetailsViewController.swift */,
+				0C29E4271C910344006728EA /* SocialCellCollectionViewCell.swift */,
+				0C01EC2C1C94C52400CD7172 /* Main.storyboard */,
+				0C29E4251C91001F006728EA /* SocialsFeedViewController.swift */,
+				0C9076E71C93BEFC002A532B /* GoingTableViewCell.swift */,
+				0C29E4211C90FB37006728EA /* NewSocialViewController.swift */,
 				0C92034D1C8FF0D70074CC90 /* LoginViewController.swift */,
 				0C92034F1C8FF0E10074CC90 /* SignupViewController.swift */,
 				0C9203031C8FE8570074CC90 /* Assets.xcassets */,
@@ -315,9 +330,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C01EC2D1C94C52400CD7172 /* Main.storyboard in Resources */,
 				0C9203071C8FE8570074CC90 /* LaunchScreen.storyboard in Resources */,
 				0C9203041C8FE8570074CC90 /* Assets.xcassets in Resources */,
-				0C9202FF1C8FE8570074CC90 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,10 +357,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C29E42A1C9106CA006728EA /* SocialDetailsViewController.swift in Sources */,
 				0C92034E1C8FF0D70074CC90 /* LoginViewController.swift in Sources */,
 				0C9203021C8FE8570074CC90 /* SocialApp.xcdatamodeld in Sources */,
 				0C9203501C8FF0E10074CC90 /* SignupViewController.swift in Sources */,
+				0C29E4281C910344006728EA /* SocialCellCollectionViewCell.swift in Sources */,
+				0C29E4221C90FB37006728EA /* NewSocialViewController.swift in Sources */,
+				0C29E4261C91001F006728EA /* SocialsFeedViewController.swift in Sources */,
 				0C9202FC1C8FE8570074CC90 /* ViewController.swift in Sources */,
+				0C9076E81C93BEFC002A532B /* GoingTableViewCell.swift in Sources */,
 				0C9202FA1C8FE8570074CC90 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -382,14 +402,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0C9202FD1C8FE8570074CC90 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0C9202FE1C8FE8570074CC90 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0C9203051C8FE8570074CC90 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -586,6 +598,7 @@
 				0C9203231C8FE8580074CC90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0C9203241C8FE8580074CC90 /* Build configuration list for PBXNativeTarget "SocialAppTests" */ = {
 			isa = XCConfigurationList;
@@ -594,6 +607,7 @@
 				0C9203261C8FE8580074CC90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0C9203271C8FE8580074CC90 /* Build configuration list for PBXNativeTarget "SocialAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -602,6 +616,7 @@
 				0C9203291C8FE8580074CC90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
